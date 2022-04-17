@@ -53,7 +53,7 @@ h3 {
 @media (min-width: 820px) {
 
   .cityInput {
-    min-width: 70%;
+    min-width: 40%;
   }
  
   .card{
