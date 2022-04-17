@@ -1,0 +1,75 @@
+
+
+body {
+ background-image: url('https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+ background-size: cover;
+ background-repeat: repeat;
+ height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.countryName {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.cityInput {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f0e7e7;
+}
+
+.info {
+  position: relative;
+  top: 140px;
+}
+.btn {
+  width: 60px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color:#e6e1e1;
+  transition: .4s  ease-in-out;
+}
+
+.card h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.card p {
+  text-align: center;
+  font-weight: 700;
+}
+h3 {
+  text-align: center;
+}
+
+@media (min-width: 820px) {
+
+  .cityInput {
+    min-width: 70%;
+  }
+ 
+  .card{
+    position: relative;
+    bottom:30px;
+ 
+  }
+}
+
+@media (max-width: 591px) {
+  .cityInput {
+    margin-bottom: 40px;
+    width:60%;
+  }
+
+
+}
+
+
